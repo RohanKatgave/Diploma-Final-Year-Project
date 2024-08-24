@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aa.myapplication.Simple">
+
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="361dp"
+        android:layout_height="41dp"
+        android:maxWidth="500dp"
+        android:text="Num1"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="359dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter number1"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="56dp"
+        android:layout_below="@+id/tv1"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="365dp"
+        android:layout_height="46dp"
+        android:text="Num2"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="118dp"
+        android:layout_below="@+id/et1"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="365dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter number2"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="174dp"
+        android:layout_below="@+id/tv2"/>/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="362dp"
+        android:layout_height="43dp"
+        android:text="Result"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="234dp"
+        android:layout_below="@+id/et2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />/>
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="361dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="result"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="292dp"
+        android:layout_below="@+id/tv3"/>/>
+
+    <Button
+        android:id="@+id/Badd"
+        android:layout_width="112dp"
+        android:layout_height="65dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="onAddClick"
+        android:text="ADD"
+        android:textColorLink="@android:color/holo_blue_bright"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="390dp"
+        android:layout_below="@+id/et3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp" />
+    />
+
+</RelativeLayout>
+
